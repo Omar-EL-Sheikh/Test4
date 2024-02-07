@@ -29,7 +29,7 @@ def save_to_readme(content, filename="README.md"):
 
 
 # Example usage
-title = "My-Awesome-Projecttt"
+title = "My-Awesome-Projectttttt"
 description = "A brief description of my awesome project."
 languages = "Python, JavaScript"
 written_in = "Python"
@@ -77,4 +77,4 @@ os.system("git init")
 os.system("git add .")
 os.system("git commit -m 'Initial commit'")
 os.system(f"git remote add origin https://github.com/Omar-EL-Sheikh/{title}.git")  # replace YOUR_USERNAME
-os.system("git push -u origin master")
+os.system(f"git push -u origin master -v -u {github_token}")
