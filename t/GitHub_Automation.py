@@ -66,7 +66,7 @@ def create_github_repo(repo_name, github_token):
 
 
 # GitHub authentication token - replace with your personal access token
-github_token = "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"
+github_token = "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"
 
 # Create a GitHub repository with the same project name
 create_github_repo(title, github_token)
