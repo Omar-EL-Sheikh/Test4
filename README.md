@@ -1,4 +1,4 @@
-# My-Awesome-Project1
+# My-Awesome-Projec
 
 ## Description
 A brief description of my awesome project.

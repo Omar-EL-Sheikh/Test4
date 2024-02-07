@@ -29,7 +29,7 @@ def save_to_readme(content, filename="README.md"):
 
 
 # Example usage
-title = "My-Awesome-Project1"
+title = "My-Awesome-Projec"
 description = "A brief description of my awesome project."
 languages = "Python, JavaScript"
 written_in = "Python"
