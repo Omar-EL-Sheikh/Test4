@@ -29,7 +29,7 @@ def save_to_readme(content, filename="README.md"):
 
 
 # Example usage
-title = "Test-Test"
+title = "Test3"
 description = "A brief description of my awesome project."
 languages = "Python, JavaScript"
 written_in = "Python"
@@ -66,7 +66,7 @@ def create_github_repo(repo_name, github_token):
 
 
 # GitHub authentication token - replace with your personal access token
-github_token = "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"
+github_token = "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"
 
 # Create a GitHub repository with the same project name
 create_github_repo(title, github_token)
@@ -77,4 +77,5 @@ os.system("git init")
 os.system("git add .")
 os.system("git commit -m 'Initial commit'")
 os.system(f"git remote add origin https://github.com/Omar-EL-Sheikh/{title}.git")  # replace YOUR_USERNAME
-os.system(f"git push -u origin master -v -u {github_token}")
+os.system(f"git remote set-url origin https://{github_token}@github.com/Omar-EL-Sheikh/{title}.git")
+os.system(f"git push -u origin main")
